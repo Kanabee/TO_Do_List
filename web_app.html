@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List with Completed Panel</title>
+  <link rel="stylesheet" href="web_app_css.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <h2>MY Project  </h2>
+      <input type="text" id="todo-input" placeholder="Add a task...">
+      <input type="date" id="due-date">
+      <button id="add-btn">Add</button>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="short">This Month</option>
+        <option value="medium">This Year</option>
+        <option value="long">Long Term</option>
+      </select>
+      
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="panel">
+      <h2>Completed</h2>
+      <ul id="done-list"></ul>
+    </div>
+  </div>
+  <script src="web_app_js.js"></script>
+  </body>
+</html>

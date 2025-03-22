@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    background: #f9f9f9;
+  }
+  .container {
+    display: flex;
+    gap: 30px;
+  }
+  .panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 300px;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  input[type="text"], input[type="date"] {
+    width: 65%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 8px 12px;
+    margin-left: 5px;
+  }
+  select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 6px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  li span.delete {
+    position: absolute;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+  }
+
+  .short { color: rgb(238, 49, 175); }
+  .medium { color: rgb(36, 221, 175); }
+  .long { color: rgb(181, 236, 29); }
+  
+  .alert-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .urgent { background: red; }
+  .warning { background: orange; }
+  .notice { background: yellowgreen; }
